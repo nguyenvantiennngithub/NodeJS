@@ -7,6 +7,10 @@
         "express": "^4.17.1",
         "express-handlebars": "^5.1.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nguyenvantiennngithub/NodeJS.git"
+    },
     "bugs": {
         "url": "https://github.com/nguyenvantiennngithub/NodeJS.git"
     },
