@@ -17,7 +17,7 @@ app.use(
 app.use(express.json());
 
 app.engine(
-    'hbs',
+    "hbs",
     handle({
         extname: '.hbs',
     }),
