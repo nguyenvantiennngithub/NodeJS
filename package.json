@@ -16,13 +16,13 @@
         "prettier": "^2.1.1"
     },
     "scripts": {
-        "format": "prettier --single-quote --trailing-comma all --tab-width 4 --no-semi --write src/**/*.{js,json,sass}",
+        "format": "prettier --single-quote --trailing-comma all --tab-width 4 --write src/**/*.{js,json,sass}",
         "start": "nodemon src/index.js",
         "watch": "node-sass --watch src/resources/scss/app.scss src/public/css/app.css",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "lint-staged": {
-        "src/**/*.{js,json,sass}": "prettier --no-semi --single-quote --trailing-comma all --tab-width 4 --write"
+        "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
     },
     "husky": {
       "hooks": {
