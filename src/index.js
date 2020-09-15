@@ -17,14 +17,14 @@ app.use(
 app.use(express.json());
 
 app.engine(
-    "hbs",
+    'hbs',
     handle({
         extname: '.hbs',
     }),
 );
 app.set('view engine', 'hbs');
-            app.set('views', path.join(__dirname, 'resources', 'views'));
-            console.log(__dirname);
+app.set('views', path.join(__dirname, 'resources', 'views'));
+console.log(__dirname);
 
 router(app);
 
