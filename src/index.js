@@ -1,7 +1,7 @@
 const path = require("path");
 const express = require('express');
 const handle = require('express-handlebars');
-const morgan = require('morgan');
+const morgan = require("morgan");
 const router = require('./routers/index.router');
 // const { dir } = require("console")
 
