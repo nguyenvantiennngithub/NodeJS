@@ -3,32 +3,24 @@
     "version": "1.0.0",
     "description": "",
     "main": "src/index.js",
-    "dependencies": {
-        "express": "^4.17.1",
-        "express-handlebars": "^5.1.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/nguyenvantiennngithub/NodeJS.git"
-    },
-    "bugs": {
-        "url": "https://github.com/nguyenvantiennngithub/NodeJS.git"
-    },
-    "homepage": "https://github.com/nguyenvantiennngithub/NodeJS.git",
-    "devDependencies": {
-        "husky": "^4.3.0",
-        "lint-staged": "^10.3.0",
-        "morgan": "^1.10.0",
-        "node-sass": "^4.14.1",
-        "nodemon": "^2.0.4",
-        "prettier": "^2.1.1"
-    },
     "scripts": {
         "format": "prettier --single-quote --trailing-comma all --tab-width 4 --write src/**/*.{js,json,sass}",
         "start": "nodemon src/index.js",
         "watch": "node-sass --watch src/resources/scss/app.scss src/public/css/app.css",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nguyenvantiennngithub/NodeJS.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nguyenvantiennngithub/NodeJS.git"
+    },
+    "homepage": "https://github.com/nguyenvantiennngithub/NodeJS.git",
+    
+    
     "lint-staged": {
         "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
     },
@@ -37,6 +29,16 @@
         "pre-commit": "lint-staged"
       }
     },
-    "author": "",
-    "license": "ISC"
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^5.1.0"
+    },
+    "devDependencies": {
+        "husky": "^4.3.0",
+        "lint-staged": "^10.3.0",
+        "morgan": "^1.10.0",
+        "node-sass": "^4.14.1",
+        "nodemon": "^2.0.4",
+        "prettier": "^2.1.1"
+    }
 }
