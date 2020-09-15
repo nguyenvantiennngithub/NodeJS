@@ -7,7 +7,7 @@ const router = require('./routers/index.router');
 
 var app = express();
 
-app.use(morgan('combined'));
+app.use(morgan("combined"));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(
     express.urlencoded({
