@@ -2,8 +2,20 @@
   "name": "blog",
   "version": "1.0.0",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenvantiennngithub/NodeJS.git"
+  },
+  "keywords": [
+    "VanTiennn"
+  ],
+  "bugs": {
+    "url": "https://github.com/nguyenvantiennngithub/NodeJS/issues"
+  },
+  "homepage": "https://github.com/nguyenvantiennngithub/NodeJS#readme",
+  "description": "",
   "scripts": {
-    "format": "prettier --single-quote --trailing-comma all --tab-width 4 --write src/**/*.{js,json,sass}",
+    "beautiful": "lint-staged",
     "start": "nodemon src/index.js",
     "watch": "node-sass --watch src/resources/scss/app.scss src/public/css/app.css",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -29,17 +41,5 @@
     "node-sass": "^4.14.1",
     "nodemon": "^2.0.4",
     "prettier": "^2.1.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nguyenvantiennngithub/NodeJS.git"
-  },
-  "keywords": [
-    "VanTiennn"
-  ],
-  "bugs": {
-    "url": "https://github.com/nguyenvantiennngithub/NodeJS/issues"
-  },
-  "homepage": "https://github.com/nguyenvantiennngithub/NodeJS#readme",
-  "description": ""
+  }
 }
